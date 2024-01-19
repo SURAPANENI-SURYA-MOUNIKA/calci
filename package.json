@@ -1,5 +1,54 @@
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
 {
-  "dependencies": {
-    "express": "^4.18.2"
+  "name": "calc",
+  "author": "Josh Perez <josh@goatslacker.com>",
+  "version": "0.0.2",
+  "description": "Simple cmd line calculator",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goatslacker/node-calc.git"
+  },
+
+  "keywords": [
+    "math",
+    "calculator",
+    "arithmetic"
+  ],
+
+  "licenses": ["None"],
+
+  "bin": {
+    "calc": "./bin/calc"
+  },
+
+  "engines": {
+    "node": ">= 0.0.1"
   }
 }
